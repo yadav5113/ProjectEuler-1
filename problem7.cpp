@@ -12,7 +12,10 @@ int main ()
 		{
 			++count;
 			if (count == 10001)
+			{
 				cout<<"10001st prime number is : "<< i;
+				break;
+			}
 		}
 	}
 	return 0;
